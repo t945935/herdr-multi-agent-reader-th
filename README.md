@@ -2,7 +2,7 @@
 
 แพ็กเกจนี้ประกอบด้วยโค้ด การทดสอบ และ prompt ตามบทบาทสำหรับหนังสือฉบับภาษาไทย
 
-ฉบับเผยแพร่: [repository](https://github.com/t945935/herdr-multi-agent-reader-th) · [v1.0.0](https://github.com/t945935/herdr-multi-agent-reader-th/releases/tag/v1.0.0) ดาวน์โหลด ZIP และ SHA-256 ได้จาก Assets ของ Release
+ฉบับเผยแพร่: [repository](https://github.com/t945935/herdr-multi-agent-reader-th) · [v1.0.1](https://github.com/t945935/herdr-multi-agent-reader-th/releases/tag/v1.0.1) ดาวน์โหลด ZIP และ SHA-256 ได้จาก Assets ของ Release
 
 ## ติดตั้งและทดสอบ
 

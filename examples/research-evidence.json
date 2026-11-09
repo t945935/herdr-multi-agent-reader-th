@@ -1,0 +1,18 @@
+{
+  "question": "ควรแบ่งชั้นเลือก Local LLM และสภาพแวดล้อม Multi-Agent Coding อย่างไร?",
+  "sources": [
+    {"id": "S1", "title": "Herdr Agent automation", "url": "https://herdr.dev/tui/docs/agent-automation/", "accessed": "2026-11-06", "kind": "เอกสารทางการ"},
+    {"id": "S2", "title": "Herdr CLI reference", "url": "https://herdr.dev/tui/docs/cli-reference/", "accessed": "2026-11-06", "kind": "เอกสารทางการ"},
+    {"id": "S3", "title": "Ollama API Introduction", "url": "https://docs.ollama.com/api/introduction", "accessed": "2026-11-06", "kind": "เอกสารทางการ"},
+    {"id": "S4", "title": "llama.cpp HTTP Server", "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md", "accessed": "2026-11-06", "kind": "เอกสารทางการ"},
+    {"id": "S5", "title": "Codex CLI", "url": "https://developers.openai.com/codex/cli/", "accessed": "2026-11-06", "kind": "เอกสารทางการ"}
+  ],
+  "claims": [
+    {"text": "การรอเสร็จติดตามสถานะวงจรการทำงาน แต่ไม่ได้ยืนยันผลงานของแต่ละรอบ", "status": "supported", "evidence": [{"source": "S1", "quote": "It does not track individual turns."}]},
+    {"text": "pane wait-output ใช้กับโปรเซสทั่วไป ส่วน agent wait ใช้รอสถานะ Agent", "status": "supported", "evidence": [{"source": "S2", "quote": "Use pane wait-output for normal commands and servers. Use agent wait for coding agents."}]},
+    {"text": "Ollama มี API สำหรับโมเดลในเครื่องและโมเดลคลาวด์", "status": "supported", "evidence": [{"source": "S3", "quote": "Use Ollama's API to build applications with cloud or local models."}]},
+    {"text": "llama.cpp server มี REST API สำหรับ LLM และหน้าเว็บสำหรับโต้ตอบ", "status": "supported", "evidence": [{"source": "S4", "quote": "Set of LLM REST APIs and a web UI to interact with llama.cpp."}]},
+    {"text": "Coding CLI ตรวจและแก้โค้ดพร้อมรันคำสั่งได้โดยไม่ออกจากเทอร์มินัล", "status": "supported", "evidence": [{"source": "S5", "quote": "Inspect code, make changes, run commands, and automate repeatable work without leaving your terminal."}]},
+    {"text": "การเพิ่ม Agent ทำให้ผลวิจัย Local LLM แม่นยำขึ้นแน่นอน", "status": "uncertain", "evidence": []}
+  ]
+}
